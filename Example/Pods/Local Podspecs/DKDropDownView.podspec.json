@@ -1,0 +1,29 @@
+{
+  "name": "DKDropDownView",
+  "version": "0.1.0",
+  "summary": "A short description of DKDropDownView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/dharmesh304/DKDropDownView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "dharmesh304": "dharmesh.kathiriya304@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/dharmesh304/DKDropDownView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "source_files": "DKDropDownView/Classes/**/*",
+  "resource_bundles": {
+    "DKDropDownView": [
+      "DKDropDownView/Assets/*.xib",
+      "Pod/**/*.xib"
+    ]
+  },
+  "frameworks": "UIKit"
+}

