@@ -52,6 +52,10 @@ extension UITextField {
         self.tintColor = UIColor.clear
         self.inputView = dropDownView
     }
+    
+    open override func canPerformAction(_ action: Selector, withSender sender: Any?) -> Bool {
+        return false
+    }
 }
 
 @objc public protocol DropDowndelegate {
